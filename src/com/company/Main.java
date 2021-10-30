@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 //        task 1
+
         String firstName ="Ivanov";
         String middleName ="Ivan";
         String lastName ="Ivanovich";
@@ -15,10 +16,12 @@ public class Main {
         System.out.println("Данные ФИО сотрудника для заполнения отчета — "+fullNameFor);
 
         //task 3
+        
         String fullNameForAdm = fullName.replace(" ", ";");
         System.out.println("Данные ФИО сотрудника для административного отдела —"+fullNameForAdm);
 
         //task 4
+
         String middleName2 = "Semёn";
         String lastName2 = "Semёnovich";
         String[] Split = fullName.split(" ");
